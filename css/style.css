@@ -1,0 +1,466 @@
+/**************************
+ 	Global CSS Start
+***************************/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Jost", sans-serif;
+}
+
+p,
+span {
+    font-family: sans-serif;
+    margin: 0 !important;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1320px;
+}
+
+/**************************
+ 	Global CSS End
+***************************/
+
+
+
+/**************************
+ 	Navbar CSS Start
+***************************/
+header.header_section {
+    background: white;
+    align-content: center;
+}
+
+nav.navbar.navbar-expand-lg {
+    padding: 0;
+}
+
+a.navbar-brand {
+    padding: 0 0 0 48px;
+}
+
+button#dropdownMenuButton {
+    background: transparent;
+    border: none;
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: Black;
+    font-family: sans-serif;
+    padding: 25px 0;
+    transition: all .5s;
+}
+
+button#dropdownMenuButton:hover {
+    color: #348e37;
+}
+
+a.nav-link.active {
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+}
+
+a.nav-link {
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: 500 !important;
+    color: Black;
+    padding: 25px 0;
+    transition: all .5s;
+}
+
+a.nav-link:hover {
+    color: #348e37;
+}
+
+li.nav-item-btn {
+    display: flex;
+    background: #348e37;
+    color: white;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    background: #E8F5E9;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+i.fa.fa-arrow-right {
+    padding-left: 16px;
+}
+
+a.dropdown-item:hover {
+    background: #e9ecef;
+}
+
+.dropdown-item:active {
+    color: var(--bs-dropdown-link-active-color);
+    background-color: green !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #348e38 !important;
+}
+
+a.nav-link-btn {
+    font-size: 18px;
+    font-weight: 500 !important;
+    color: white;
+    padding: 25px;
+    transition: all .5s;
+}
+
+a.nav-link-btn:hover {
+    color: black;
+    background-color: #529f56;
+}
+
+/**************************
+ 	Navbar CSS End
+***************************/
+
+
+
+/**************************
+ 	Banner CSS Start
+***************************/
+.banner-section {
+    background: url(../img/carousel-1.jpg) center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner-inner h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    color: white;
+    padding: 0 120px 48px 120px;
+
+}
+
+.all-btn {
+    background: #348E38;
+    color: #e8f5e9;
+    padding: 20px 24px;
+    border-radius: 4px;
+    border: 1px solid #348E38;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .5s;
+}
+
+.all-btn:hover {
+    color: black;
+    background-color: #529f56;
+    border-color: #48994c;
+}
+
+.overlay {
+    background: rgba(15, 66, 41, .6);
+    height: 113vh;
+    align-content: center;
+}
+
+/**************************
+ 	Banner CSS End
+***************************/
+
+
+/**************************
+ 	Feature CSS Start
+***************************/
+section.feature-section {
+    margin: -80px 0 150px 0;
+}
+
+.feature-inner {
+    display: flex;
+    padding: 40px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    background: white;
+}
+
+.feature-icon i.fa {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #E8F5E9;
+    border-radius: 50px;
+    background: #E8F5E9;
+    color: #348e38;
+    justify-content: center;
+}
+
+.feature-content {
+    padding-left: 16px;
+}
+
+.feature-content h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0F4229;
+}
+
+.feature-content span {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #525368;
+}
+
+.col-lg-4 {
+    padding: 0 !important;
+}
+
+/**************************
+ 	Feature CSS End
+***************************/
+
+
+
+
+/**************************
+ 	Facts CSS Start
+***************************/
+.facts-section {
+    background: url(../img/carousel-1.jpg) center center;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.overlay2 {
+    background: rgba(15, 66, 41, .6);
+    height: 280px;
+    align-content: center;
+}
+
+.facts-inner h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.facts-inner span {
+    font-size: 20px;
+    color: #E8F5E9;
+    font-weight: 500;
+}
+
+/**************************
+ 	Facts CSS End
+***************************/
+
+
+
+
+
+/**************************
+ 	Choos CSS Start
+***************************/
+section.choos-section {
+    margin: 80px 0;
+}
+
+.choos-left span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #348e38;
+}
+
+.choos-left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0F4229;
+    padding: 16px 0 24px 0
+}
+
+.choos-left p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #525368;
+    padding: 0 28px 36px 0;
+}
+
+.choos-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-inner {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    padding: 48px;
+    margin: 24px 0 0 24px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+}
+
+.box-inner i.fa {
+    width: 90px;
+    height: 90px;
+    background: #E8F5E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #348E38;
+    border-radius: 50px;
+    margin-bottom: 24px;
+}
+
+.col-lg-6.choos-cal-6 {
+    align-content: center;
+}
+
+/**************************
+ 	Choos CSS End
+***************************/
+
+
+
+
+/**************************
+ 	Form CSS Start
+***************************/
+.form-section {
+    background: url(../img/carousel-2.jpg) center center;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.overlay3 {
+    background: rgba(15, 66, 41, .6);
+    padding: 100px 0;
+    /* align-content: center; */
+}
+
+.form-inner {
+    background: white;
+    padding: 48px;
+    border-radius: 4px;
+}
+
+.form-inner h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0F4229;
+    margin-bottom: 48px;
+}
+
+.form-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    margin-bottom: 16px;
+}
+
+.form-top input {
+    padding: 16px 12px;
+    color: #525368;
+    background: #E8F5E9;
+    border: #E8F5E9;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    padding: 16px 12px;
+    color: #525368;
+    background: #E8F5E9;
+    border: #E8F5E9;
+    border-radius: 4px;
+    margin-bottom: 30px !important;
+    font-family: sans-serif;
+}
+
+.form-btn {
+    margin-bottom: 16px;
+}
+
+/**************************
+ 	Form CSS End
+***************************/
+
+
+
+
+/**************************
+ 	Footer CSS Start
+***************************/
+
+/**************************
+ 	Footer CSS End
+***************************/
+
+
+
+/**************************
+ 	Copy Right CSS Start
+***************************/
+section.copyright {
+    padding: 24px 0;
+    /* color: #e8f5e9; */
+    background: #072A19;
+}
+
+.copyright-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-inner p {
+    color: #e8f5e9;
+}
+
+.copyright-inner p a {
+    color: #e8f5e9;
+    text-decoration: underline !important;
+    transition: all .5s;
+}
+
+.copyright-inner p a:hover {
+    color: #348e38;
+}
+/**************************
+ 	Copy Right CSS End
+***************************/
